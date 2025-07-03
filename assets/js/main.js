@@ -258,6 +258,8 @@
       const pr = document.getElementById("plus-projects");
       cl.textContent = cl.textContent + "+"; // Добавляем плюс
       pr.textContent = pr.textContent + "+"; // Добавляем плюс
-    }, 1500); // чуть больше чем data-purecounter-duration
+
+            
+    }, 2500); // чуть больше чем data-purecounter-duration
   });
 })();
