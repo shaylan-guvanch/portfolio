@@ -180,6 +180,7 @@ h3{
 
 .header.header-show {
   left: 0;
+  z-index: 8888;
 }
 
 .header .header-toggle {
@@ -548,7 +549,7 @@ section,
 .hero .container {
   position: relative;
   z-index: 3;
-  margin-left: 25px;
+  margin-left: 5%;
 }
 
 .hero h2 {
