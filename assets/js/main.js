@@ -247,22 +247,6 @@
   document.getElementById("age").textContent = calculateAge(birthDate);
   //document.getElementById("birthday").textContent = birthDate;
   const options = { day: 'numeric', month: 'short', year: 'numeric' };
-  document.getElementById("birthday").textContent = birthDate.toLocaleDateString('en-US', options);
-
-  document.addEventListener("DOMContentLoaded", function () {
-    new PureCounter(); // Запускаем счетчик
-
-    // Ждем окончания анимации (длится 1 секунда по твоим параметрам)
-    setTimeout(() => {
-      const cl = document.getElementById("plus-clients");
-      const pr = document.getElementById("plus-projects");
-      cl.textContent = cl.textContent + "+"; // Добавляем плюс
-      pr.textContent = pr.textContent + "+"; // Добавляем плюс
-
-            
-    }, 2500); // чуть больше чем data-purecounter-duration
-  });
-
-  
+  document.getElementById("birthday").textContent = birthDate.toLocaleDateString('en-US', options);  
 
 })();
