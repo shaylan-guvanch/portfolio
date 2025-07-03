@@ -262,4 +262,7 @@
             
     }, 2500); // чуть больше чем data-purecounter-duration
   });
+
+  
+
 })();
